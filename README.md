@@ -1,8 +1,8 @@
-DBLP-Coauthor-Mining(从DBLP数据集中挖掘合作者)
+DBLP-Coauthor-Mining<br \>(从DBLP数据集中挖掘合作者)
 =============
 详细说明
 -------------
-		详细说明请查看[数据挖掘实战之DBLP中合作者挖掘（Python+Hadoop)](http://www.tianjun.ml/essays/20)<br />
+详细说明请查看 [数据挖掘实战之DBLP中合作者挖掘（Python+Hadoop)](http://www.tianjun.ml/essays/20)
 
 文件说明
 -------------
