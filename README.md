@@ -2,12 +2,12 @@ DBLP-Coauthor-Mining(从DBLP数据集中挖掘合作者)
 =============
 详细说明
 -------------
-		详细说明请查看[数据挖掘实战之DBLP中合作者挖掘（Python+Hadoop) ](http://www.tianjun.ml/essays/20)<br />
+		详细说明请查看[数据挖掘实战之DBLP中合作者挖掘（Python+Hadoop)](http://www.tianjun.ml/essays/20)<br />
 
 文件说明
 -------------
 ### getAuthors.py
-下载DBLP数据集``dblp.xml``到该目录下，[http://dblp.uni-trier.de/xml/】(http://dblp.uni-trier.de/xml/)<br />运行``getAuthors.py`` 得到``authors.txt``文件
+下载DBLP数据集``dblp.xml``到该目录下，[http://dblp.uni-trier.de/xml/](http://dblp.uni-trier.de/xml/)<br />运行``getAuthors.py`` 得到``authors.txt``文件
 ### encode.py
 运行该文件后将对上一步得到的``authors.txt``文件编码（安装作者姓名出现的顺序依次以正整数编码）得到编码后的文件``authors_encoded.txt``，以及作者姓名与编码对应的文件``authors_index.txt``，其对应关系为姓名所在的行号减1即为其编码ID（ID从0开始）
 ### view.data.py
