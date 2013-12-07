@@ -18,4 +18,6 @@ DBLP-Coauthor-Mining<br \>(从DBLP数据集中挖掘合作者)
 第一轮MapReduce的Map和Reduce所用到的文件，其实质就是一个wordCount的过程
 ### mapper2.py & reduce2.py
 第二轮MapReduce的Map和Reduce所用到的文件，注意在这里的输出并给出没有完整的挖掘结果，而是输出的条件模式集，有空的话再转化一下。（本s实验目的只是验证FP-growth在分布式下实现的可能性，所以没有给出完整的结果）
+### viewRelation.py
+添加了作者与其合作者之间的可视化功能，使用了networkx包。
 
